@@ -1,6 +1,5 @@
 export interface Store extends React.Props<any>  {
-    displayName: string;
-    age: number;
-    job: string;
+    title: string;
+    short: string;
+    description: string;
   }
-  

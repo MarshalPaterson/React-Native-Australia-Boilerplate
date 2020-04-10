@@ -7,7 +7,8 @@ function About(): React.ReactElement {
   const store = useContext(StoreContext);
   return (
     <SafeAreaView>
-      <Text>{store.name}</Text>
+      <Text>{store.item.title}</Text>
+      <Text>{store.item.description}</Text>
     </SafeAreaView>
   );
 }

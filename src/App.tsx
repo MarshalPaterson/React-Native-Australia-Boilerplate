@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, useState, useEffect } from "react";
 import RootNavigation from "./components/navigation/RootNavigation";
 import StoreContext from "./contexts/StoreContext";
 
@@ -7,11 +7,23 @@ function App(): React.ReactElement {
 }
 
 function ProviderWrapper(): React.ReactElement {
-  
-  const Store = { name: "Tania", loggedIn: true };
+  const [hasError, setErrors] = useState(false);
+  const [store, setStore] = useState({fetchData});
+
+  useEffect(() => {
+    fetchData();
+  });
+
+  async function fetchData() {
+    const res = await fetch("http://localhost/rnab/api.json");
+    res
+      .json()
+      .then((res) => setStore(res))
+      .catch((err) => setErrors(err));
+  }
 
   return (
-    <StoreContext.Provider value={Store}>
+    <StoreContext.Provider value={store}>
       <App />
     </StoreContext.Provider>
   );
