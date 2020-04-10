@@ -1,11 +1,15 @@
-import React from 'react'
-// import { View, SafeAreaView } from 'react-native';
-import SafeAreaView from 'react-native-safe-area-view';
-import UserContext from '../../contexts/UserContext'
+import React, { useContext } from "react";
+import { Text } from "react-native";
+import SafeAreaView from "react-native-safe-area-view";
+import StoreContext from "../../contexts/StoreContext";
 
 function About(): React.ReactElement {
-    const user = UserContext.Consumer
-    return (<SafeAreaView>{user.name}</SafeAreaView>);
+  const store = useContext(StoreContext);
+  return (
+    <SafeAreaView>
+      <Text>{store.name}</Text>
+    </SafeAreaView>
+  );
 }
 
 export default About;

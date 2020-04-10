@@ -1,18 +1,19 @@
 import React from "react";
 import RootNavigation from "./components/navigation/RootNavigation";
-import UserContext from "./contexts/UserContext";
+import StoreContext from "./contexts/StoreContext";
 
 function App(): React.ReactElement {
   return <RootNavigation />;
 }
 
 function ProviderWrapper(): React.ReactElement {
-  const user = { name: "Tania", loggedIn: true };
+  
+  const Store = { name: "Tania", loggedIn: true };
 
   return (
-    <UserContext.Provider value={user}>
+    <StoreContext.Provider value={Store}>
       <App />
-    </UserContext.Provider>
+    </StoreContext.Provider>
   );
 }
 
