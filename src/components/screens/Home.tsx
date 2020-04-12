@@ -8,8 +8,8 @@ function Home({ navigation }): React.ReactElement {
 
   return (
     <SafeAreaView>
-      <Text>{store.item.title}</Text>
-      <Text>{store.item.short}</Text>
+      <Text>{store.title}</Text>
+      <Text>{store.short}</Text>
       {/* <Text>{JSON.stringify(planets)}</Text>
       <Text>Has error: {JSON.stringify(hasError)}</Text> */}
       {/* <FlatList

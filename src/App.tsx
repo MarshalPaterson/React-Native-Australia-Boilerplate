@@ -15,7 +15,7 @@ function ProviderWrapper(): React.ReactElement {
   });
 
   async function fetchData() {
-    const res = await fetch("http://localhost/rnab/api.json");
+    const res = await fetch("http://localhost/rnab/api.json?rand=" + Math.random());
     res
       .json()
       .then((res) => setStore(res))
