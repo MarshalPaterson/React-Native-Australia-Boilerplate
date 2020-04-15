@@ -3,6 +3,7 @@ import { StyleSheet } from "react-native"
 export const styles = StyleSheet.create({
     container: {
         backgroundColor: "#000000",
+        justifyContent: "center",
         alignItems: "center",
         height: "100%",
         width: "100%",
@@ -10,12 +11,11 @@ export const styles = StyleSheet.create({
       imageContainer: {
         alignItems: "center",
         justifyContent: "center",
-        marginTop: 22,
         overflow: "hidden",
       },
       image: {
-        width: 200,
-        height: 200,
+        width: 120,
+        height: 120,
       },
       rnt: {
         fontSize: 22,
@@ -31,7 +31,12 @@ export const styles = StyleSheet.create({
         fontSize: 17,
         color: "#FFFFFF",
       },
+      version: {
+        fontSize: 10,
+        color: "#FFFFFF",
+      },
       text: {
+        fontSize: 16,
         color: "#FFFFFF",
       },
 })

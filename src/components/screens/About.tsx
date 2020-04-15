@@ -9,6 +9,7 @@ function About(): React.ReactElement {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>{store.title}</Text>
+      <Text style={styles.version}>{store.version}</Text>
     </SafeAreaView>
   );
 }
