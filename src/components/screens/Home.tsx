@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Button, Text, Image } from "react-native";
 import SafeAreaView from "react-native-safe-area-view";
 import StoreContext from "../../contexts/StoreContext";
-import { styles } from "../../styles/App";
+import { styles } from "../../styles/AppStyles";
 
 function Home({ navigation }): React.ReactElement {
   const store = useContext(StoreContext);

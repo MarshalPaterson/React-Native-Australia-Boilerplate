@@ -7,11 +7,7 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         height: "100%",
         width: "100%",
-      },
-      imageContainer: {
-        alignItems: "center",
-        justifyContent: "center",
-        overflow: "hidden",
+        padding: 24
       },
       image: {
         width: 120,
