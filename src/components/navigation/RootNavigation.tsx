@@ -10,8 +10,32 @@ function RootNavigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="About" component={About} />
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{
+            headerStyle: {
+              backgroundColor: "#444445",
+            },
+            headerTintColor: "#FFFFFF",
+            headerTitleStyle: {
+              fontWeight: "bold",
+            },
+          }}
+        />
+        <Stack.Screen
+          name="About"
+          component={About}
+          options={{
+            headerStyle: {
+              backgroundColor: "#444445",
+            },
+            headerTintColor: "#FFFFFF",
+            headerTitleStyle: {
+              fontWeight: "bold",
+            },
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
