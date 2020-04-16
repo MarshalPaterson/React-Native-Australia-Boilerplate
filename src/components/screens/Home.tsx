@@ -5,7 +5,7 @@ import {
   View,
   Text,
   Image,
-  Modal,
+  Alert,
 } from "react-native";
 import SafeAreaView from "react-native-safe-area-view";
 import StoreContext from "../../contexts/StoreContext";
@@ -23,7 +23,9 @@ function Home({ navigation }): React.ReactElement {
       <Image style={styles.image} source={require("../../assets/rns.png")} />
       <Text style={styles.rnt}>React Native Australia</Text>
       <Text style={styles.subTitle}>Boilerplate</Text>
-      <Text style={styles.text}>{error.message}</Text>
+      {
+        error.show && (Alert.alert(error.message))
+      }   
       {
         loader.show && (<ActivityIndicator size="large" />)
       }
