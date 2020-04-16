@@ -13,7 +13,7 @@ function ProviderWrapper(): React.ReactElement {
 
   useEffect(() => {
     fetchData();
-  });
+  }, []);
 
   async function fetchData() {
     const res = await fetch(FETCH_URL);
