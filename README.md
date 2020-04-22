@@ -1,4 +1,4 @@
-![alt text](https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate/blob/master/src/assets/rns.png "React Native Australia")
+![alt text](https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate/blob/master/src/assets/RNAreadme.png "React Native Australia")
 
 # React-Native-Australia-Boilerplate - RNAB
 
