@@ -16,17 +16,48 @@ Currently using:
 ```
 git clone https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate.git
 ```
+
+## For NPM
+To install:
 ```
 npm install
+```
+To run:
+```
 npm run android
 npm run ios
 ```
+### Lint
+```
+npm run lint
+```
+### Unit Test
+```
+npm run test
+```
+
+## For yarn
+To install:
 ```
 yarn
+```
+To run:
+```
 yarn android
 yarn ios
 ```
-## Unit Test
+### Lint
+```
+yarn lint
+```
+### Unit Test
+```
+yarn test
+```
 
-
-
+## Troubleshooting
+For iOS you might need to run pods.
+```
+cd ios
+pod install
+```
