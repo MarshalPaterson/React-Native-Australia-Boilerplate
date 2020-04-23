@@ -9,7 +9,7 @@ function App(): React.ReactElement {
 }
 
 function ProviderWrapper(): React.ReactElement {
-  const FETCH_URL = "http://localhost/rnab/api.json?rand=" + Math.random();
+  const FETCH_URL = "https://raw.githubusercontent.com/MarshalPaterson/React-Native-Australia-Boilerplate/master/src/assets/api.json?token=AFOKPKED6BFUIYXXVGYMGVS6UEP3M&rand=" + Math.random();
   const [store, setStore] = useState({ fetchData });
   const [loader, setLoader] = useState({ show: true });
   const [error, setError] = useState({ message: "", show: false });
