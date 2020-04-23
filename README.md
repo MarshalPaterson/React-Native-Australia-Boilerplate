@@ -17,6 +17,9 @@ Currently using:
 git clone https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate.git
 ```
 
+## Config
+Copy the 'api.json' from the assets folder to a http server, for example "localhost" and replace the URL 'const FETCH_URL' in App.tsx
+
 ## For NPM
 To install:
 ```

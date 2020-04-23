@@ -9,6 +9,7 @@ export const styles = StyleSheet.create({
   text: {
     fontSize: 17,
     color: "#FFFFFF",
+    textAlign: "justify"
   },
 });
 export default Description;
