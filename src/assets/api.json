@@ -1,8 +1,8 @@
 {
   "id": 1,
   "title": "Welcome to RNAB",
-  "description": "React Native Australia Boilerplate is aimed for a quick start for your next new React Native application. \n\nCurrently using:\n\t\t- Typescript \n\t\t- react-navigation \n\t\t- Functional Components \n\t\t- Provider & Consumer \n\t\t- useContext \n\t\t- SafeAreaView",
-  "about": "React Native is a group of developers in Australia promoting all the awesome mobile development that can be achieved with React Native.\n\nReact Native Australia is aimed to give you the developer an easier start point.\n\n",
+  "description": "React Native Australia Boilerplate is aimed for a quick start for your next new React Native application. \n\nCurrently using:\n\t\t- Typescript \n\t\t- react-navigation \n\t\t- Functional Components \n\t\t- Provider & Consumer \n\t\t- useContext \n\t\t- SafeAreaView \n\t\t- Common components",
+  "about": "React Native is a group of developers in Australia promoting all the awesome mobile development that can be achieved with React Native.\n\nReact Native Australia is aimed to give you the developer an easier start point.\n\nPlease feel free to join us and contribue to the community.",
   "giturl": "GIT URL",
   "url": "React Native Australia",
   "version": "© Copyright 2020 - Version 1.0.1 - MIT License"

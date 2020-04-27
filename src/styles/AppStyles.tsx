@@ -9,4 +9,7 @@ export const styles = StyleSheet.create({
     width: "100%",
     padding: 24,
   },
+  itemsInRow: {
+    flex: 1, flexDirection: 'row', justifyContent: 'space-between' 
+  }
 });
