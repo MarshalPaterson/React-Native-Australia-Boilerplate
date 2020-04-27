@@ -1,5 +1,10 @@
 ![alt text](https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate/blob/master/src/assets/RNAreadme.png "React Native Australia")
 
+[![Build Status](https://travis-ci.org/MarshalPaterson/React-Native-Australia-Boilerplate.svg?branch=master)](https://travis-ci.org/MarshalPaterson/React-Native-Australia-Boilerplate)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub issues](https://img.shields.io/github/issues/MarshalPaterson/React-Native-Australia-Boilerplate)
+![GitHub top language](https://img.shields.io/github/languages/top/MarshalPaterson/React-Native-Australia-Boilerplate)
+
 # React-Native-Australia-Boilerplate - RNAB
 
 ## Welcome to React Native Boilerplate
