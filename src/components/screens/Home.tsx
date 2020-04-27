@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ActivityIndicator, Alert } from "react-native";
-import SafeAreaView from "react-native-safe-area-view";
+import SafeAreaView from 'react-native-safe-area-view';
 import StoreContext from "../../contexts/StoreContext";
 import LoaderContext from "../../contexts/LoaderContext";
 import ErrorContext from "../../contexts/ErrorContext";
