@@ -1,4 +1,4 @@
-![alt text](https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate/blob/master/src/assets/RNAreadme.png "React Native Australia")
+![alt text](/src/assets/RNAreadme.png "React Native Australia")
 
 [![Build Status](https://travis-ci.org/MarshalPaterson/React-Native-Australia-Boilerplate.svg?branch=master)](https://travis-ci.org/MarshalPaterson/React-Native-Australia-Boilerplate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
