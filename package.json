@@ -11,6 +11,7 @@
     "clean": "rimraf build",
     "copyassets": "copyfiles  -u 1 src/assets/*.* build/",
     "build": "yarn clean && yarn copyassets && yarn tsc",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "theclean": "watchman watch-del-all && rm -rf node_modules && yarn && rm -rf /tmp/metro-bundler-cache-* && rm -rf /tmp/haste-map-react-native-packager-*"
   },
   "dependencies": {
