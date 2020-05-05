@@ -107,6 +107,6 @@ From Facebook: https://github.com/facebook/react-native | https://reactnative.de
 
 ---
 
-<center>React Native Australia © Copyright 2020 - Version 1.0.1 - MIT License</center>
+React Native Australia - Version 1.0.1 - MIT License
 
 
