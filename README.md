@@ -94,3 +94,22 @@ Also on the API call, you may need to add your IP address rather than localhost.
 If you see improvements feel free to create a branch and then it can be merged back.
 
 
+---
+
+Our website:
+https://marshalpaterson.github.io/React-Native-Australia-Boilerplate/
+
+Our group: https://www.linkedin.com/groups/13532424/
+
+React Native Australia © Copyright 2020 - Version 1.0.1 - MIT License
+
+---
+
+From Facebook:
+
+https://github.com/facebook/react-native
+
+https://reactnative.dev/
+
+---
+
