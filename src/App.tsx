@@ -9,7 +9,7 @@ function App(): React.ReactElement {
 }
 
 function ProviderWrapper(): React.ReactElement {
-  const FETCH_URL = "http://localhost/rnab/api.json?rand=" + Math.random();
+  const FETCH_URL = "http://192.168.2.5/rnab/api.json?rand=" + Math.random();
   const [store, setStore] = useState({ fetchData });
   const [loader, setLoader] = useState({ show: true });
   const [error, setError] = useState({ message: "", show: false });
