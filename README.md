@@ -18,7 +18,7 @@ Currently using:
 * Provider & Consumer
 * useContext
 
-![alt text](https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate/blob/master/src/assets/RNABviewiOS.gif?raw=true) | ![alt text](https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate/blob/master/src/assets/RNABviewAndroid.gif?raw=true)
+![alt text](https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate/blob/master/src/assets/RNABviewiOS.gif?raw=true) ![alt text](https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate/blob/master/src/assets/RNABviewAndroid.gif?raw=true)
 
 ```
 git clone https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate.git
