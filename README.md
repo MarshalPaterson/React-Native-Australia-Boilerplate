@@ -67,7 +67,7 @@ yarn test
 ```
 
 ## Troubleshooting
-For iOS you might need to run pods.
+For iOS you need to run pods.
 ```
 cd ios
 pod install
