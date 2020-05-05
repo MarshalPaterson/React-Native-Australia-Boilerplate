@@ -101,15 +101,12 @@ https://marshalpaterson.github.io/React-Native-Australia-Boilerplate/
 
 Our group: https://www.linkedin.com/groups/13532424/
 
-React Native Australia © Copyright 2020 - Version 1.0.1 - MIT License
+---
+
+From Facebook: https://github.com/facebook/react-native | https://reactnative.dev/
 
 ---
 
-From Facebook:
+<center>React Native Australia © Copyright 2020 - Version 1.0.1 - MIT License</center>
 
-https://github.com/facebook/react-native
-
-https://reactnative.dev/
-
----
 
