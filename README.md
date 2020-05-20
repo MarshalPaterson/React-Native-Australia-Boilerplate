@@ -107,6 +107,10 @@ From Facebook: https://github.com/facebook/react-native | https://reactnative.de
 
 ---
 
+Feel free to LinkedIn:
+
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="mpaterson"><a class="LI-simple-link" href='https://au.linkedin.com/in/mpaterson?trk=profile-badge'>Marshal Paterson</a></div>
+
 React Native Australia - Version 1.0.1 - MIT License
 
 
