@@ -92,8 +92,8 @@ The solution can be found at https://stackoverflow.com/questions/32634352/react-
 Also on the API call, you may need to add your IP address rather than localhost.
 
 If you see improvements feel free to create a branch and then it can be merged back.
-
-
+---
+For renaming the boilerplate project this is an excellent tool: https://github.com/junedomingo/react-native-rename
 ---
 
 Our website:
