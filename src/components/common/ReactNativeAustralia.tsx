@@ -34,4 +34,5 @@ export const styles = StyleSheet.create({
     marginBottom: 42,
   },
 });
+
 export default ReactNativeAustralia;

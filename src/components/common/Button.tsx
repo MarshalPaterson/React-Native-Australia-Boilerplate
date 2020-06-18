@@ -25,4 +25,5 @@ export const styles = StyleSheet.create({
     margin: 32,
   },
 });
+
 export default Button;

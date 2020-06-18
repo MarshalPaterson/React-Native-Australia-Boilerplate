@@ -1,7 +1,11 @@
 import React from "react";
 import { StyleSheet, Text } from "react-native";
 
-function Version({ text }) {
+type version = {
+  text: string;
+};
+
+function Version({ text }: version) {
   return <Text style={styles.text}>{text}</Text>;
 }
 
@@ -11,4 +15,5 @@ export const styles = StyleSheet.create({
     color: "#FFFFFF",
   },
 });
+
 export default Version;
