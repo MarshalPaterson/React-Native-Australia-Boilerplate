@@ -20,6 +20,7 @@
     "@react-navigation/stack": "^5.2.13",
     "copyfiles": "^2.2.0",
     "lodash": "^4.17.19",
+    "logkitty": "^0.7.1",
     "react": "16.13.1",
     "react-native": "^0.62.2",
     "react-native-gesture-handler": "^1.6.1",
