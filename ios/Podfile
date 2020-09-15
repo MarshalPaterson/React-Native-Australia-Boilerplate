@@ -1,5 +1,6 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+require_relative '../node_modules/react-native/scripts/react_native_pods'
 
 target 'RNAB' do
  # React Native pod dependencies
@@ -26,7 +27,8 @@ target 'RNAB' do
  pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
  pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
  pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
- pod 'ReactCommon/callinvoker', :path => "../node_modules/react-native/ReactCommon"
+#  pod 'ReactCommon/callinvoker', :path => "../node_modules/react-native/ReactCommon"
+ pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/callinvoker"
  pod 'ReactCommon/turbomodule/core', :path => "../node_modules/react-native/ReactCommon"
  pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 
@@ -42,6 +44,11 @@ target 'RNAB' do
   end
 
   use_native_modules!
+
+ # use_frameworks!
+# config = use_native_modules!
+ # use_react_native!(:path => config["../node_modules/react-native"])
+   
 end
 
 target 'RNAB-tvOS' do
@@ -51,5 +58,7 @@ target 'RNAB-tvOS' do
     inherit! :search_paths
     # Pods for testing
   end
+
+
 
 end
