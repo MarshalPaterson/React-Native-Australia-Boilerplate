@@ -10,6 +10,6 @@ function renderError(store) {
   );
 }
 
-test("Test Error", () => {
+test("Test Error", async () => {
   renderError("error");
 });
