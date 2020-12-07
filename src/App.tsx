@@ -3,14 +3,15 @@ import RootNavigation from "./components/navigation/RootNavigation";
 import StoreContext from "./contexts/StoreContext";
 import LoaderContext from "./contexts/LoaderContext";
 import ErrorContext from "./contexts/ErrorContext";
+import { Store } from "./types/Store";
 
 function App(): React.ReactElement {
   return <RootNavigation />;
 }
 
 function ProviderWrapper(): React.ReactElement {
-  const FETCH_URL = "http://192.168.2.5/rnab/api.json?rand=" + Math.random();
-  const [store, setStore] = useState({ fetchData });
+  const FETCH_URL = "http://localhost:8888/rnab/api.json?rand=" + Math.random();
+  const [store, setStore] = useState<Store>({ title: "", version: "", description: "" });
   const [loader, setLoader] = useState({ show: true });
   const [error, setError] = useState({ message: "", show: false });
 
@@ -25,7 +26,9 @@ function ProviderWrapper(): React.ReactElement {
 
     res
       .json()
-      .then((res) => setStore(res))
+      .then((res) => {    
+        setStore(res);
+      })
       .catch((err) =>
         setError({ message: "ERROR: " + err.message, show: true })
       )

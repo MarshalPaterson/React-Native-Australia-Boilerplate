@@ -1,8 +1,9 @@
-import React from 'react'
+import React from "react";
+import { Store } from "../types/store";
 
-const StoreContext = React.createContext({ })
+const StoreContext = React.createContext<Partial<Store>>({});
 
-export const StoreProvider = StoreContext.Provider
-export const StoreConsumer = StoreContext.Consumer
+export const StoreProvider = StoreContext.Provider;
+export const StoreConsumer = StoreContext.Consumer;
 
-export default StoreContext
+export default StoreContext;

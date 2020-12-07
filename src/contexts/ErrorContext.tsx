@@ -1,8 +1,9 @@
-import React from 'react'
+import React from "react";
+import { Error } from "../types/Error";
 
-const ErrorContext = React.createContext({ })
+const ErrorContext = React.createContext<Partial<Error>>({});
 
-export const ErrorProvider = ErrorContext.Provider
-export const ErrorConsumer = ErrorContext.Consumer
+export const ErrorProvider = ErrorContext.Provider;
+export const ErrorConsumer = ErrorContext.Consumer;
 
-export default ErrorContext
+export default ErrorContext;

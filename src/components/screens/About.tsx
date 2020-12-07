@@ -15,13 +15,13 @@ function About(): React.ReactElement {
   return (
     <SafeAreaView style={styles.container}>
       <ReactNativeAustralia />
-      <Title text={store.title} />
-      <Description text={store.about} />
+      <Title text={store.title || ""} />
+      <Description text={store.about || ""} />
       <View style={styles.itemsInRow}>
         <LinkedIn />
         <GitHub />
       </View>
-      <Version text={store.version} />
+      <Version text={store.version || ""} />
     </SafeAreaView>
   );
 }
