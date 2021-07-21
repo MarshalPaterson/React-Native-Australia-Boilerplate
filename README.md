@@ -1,6 +1,7 @@
 ![alt text](https://github.com/MarshalPaterson/React-Native-Australia-Boilerplate/blob/master/src/assets/RNAreadme.png?raw=true)
 
-[![Build Status](https://travis-ci.org/MarshalPaterson/React-Native-Australia-Boilerplate.svg?branch=master)](https://travis-ci.org/MarshalPaterson/React-Native-Australia-Boilerplate)
+[![CircleCI](https://circleci.com/gh/MarshalPaterson/React-Native-Australia-Boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/MarshalPaterson/React-Native-Australia-Boilerplate/tree/master)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub issues](https://img.shields.io/github/issues/MarshalPaterson/React-Native-Australia-Boilerplate)
 ![GitHub top language](https://img.shields.io/github/languages/top/MarshalPaterson/React-Native-Australia-Boilerplate)
