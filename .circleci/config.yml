@@ -32,6 +32,9 @@ jobs:
           name: Yarn install
           command: yarn install
       - run:
+          name: Yarn lock
+          command: yarn install --frozen-lockfile
+      - run:
           name: Run tests
           command: yarn test
 
